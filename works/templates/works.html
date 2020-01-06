@@ -1,0 +1,132 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Works
+{% endblock title %}
+
+{% block nav %}
+<ul class="nav navbar-nav navbar-right navbar-small visible-md visible-lg">
+  <li><a href="/works/work1" title="" class="active">001</a></li>
+  <li><a href="/works/work2" title="">002</a></li>
+  <li><a href="/works/work3" title="">003</a></li>
+</ul>
+{% endblock nav %}
+{% block body %}
+<div class="section-container">
+  <div class="container">
+    <div class="row">
+      
+      <div class="col-sm-8 col-sm-offset-2 section-container-spacer">
+        <div class="text-center">
+          <h1 class="h2">02 : Works</h1>
+          <p>Here are some of the work, I did. Not very fancy but I did what I learned and practiced. I enjoy designing and coding for responsive web pages.</p>
+        </div>
+      </div>
+
+      <div class="col-md-12">
+     
+      <div id="myCarousel" class="carousel slide projects-carousel">
+
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="row">
+                    <div class="col-sm-4">
+
+                      <a href="/works/work1" title="" class="black-image-project-hover">
+                        <img src="./static/assets/images/work01-hover.jpg" alt="" class="img-responsive">
+                      </a>
+                      <div class="card-container card-container-lg">
+                        <h4>001/003</h4>
+                        <h3>E-commerce Website</h3>
+                        <p>This site is designed and coded using Python and Django as server-side and HTML, CSS, JS, Bootstrap as front-end.</p>
+                        <a href="/works/work1" title="" class="btn btn-default">Discover</a>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <a href="/works/work2" title="" class="black-image-project-hover">
+                        <img src="./static/assets/images/work02-hover.jpg" alt="" class="img-responsive">
+                      </a>
+                      <div class="card-container card-container-lg">
+                        <h4>002/003</h4>
+                        <h3>Travel Site</h3>
+                        <p>This site is designed and coded using ReactJs, HTML, CSS. This site show case some of the beautiful places of Nepal.</p>
+                        <a href="/works/work2" title="" class="btn btn-default">Discover</a>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <a href="/works/work3" title="" class="black-image-project-hover">
+                        <img src="./static/assets/images/work03-hover.jpg" alt="" class="img-responsive">
+                      </a>
+                      <div class="card-container card-container-lg">
+                        <h4>003/003</h4>
+                        <h3>Portfolio Personal</h3>
+                        <p>This site is made using reactjs. Reactjs is very good for web development as Javascript can be used for both fron-end and back-end.</p>
+                        <a href="/works/work3" title="" class="btn btn-default">Discover</a>
+                      </div>
+                    </div>
+                    
+                </div>
+
+            </div>
+            
+            <div class="item">
+                <div class="row">
+                  <div class="col-sm-4">
+                    <a href="/works/work1" class="black-image-project-hover">
+                      <img src="./static/assets/images/work02-hover.jpg" alt="Image" class="img-responsive">
+                    </a>
+                    <div class="card-container">
+                      <h4>001/003</h4>
+                      <h3>E-commerce Website</h3>
+                      <p>This site is designed and coded using Python and Django as server-side and HTML, CSS, JS, Bootstrap as front-end.</p>
+                      <a href="/works/work1" class="btn btn-default">Discover</a>
+                    </div>
+                  </div>
+                   <div class="col-sm-4">
+                      <a href="/works/work2" class="black-image-project-hover">
+                        <img src="./static/assets/images/work01-hover.jpg" alt="Image" class="img-responsive">
+                      </a>
+                      <div class="card-container">
+                        <h4>001/003</h4>
+                        <h3>Travel Site</h3>
+                        <p>This site is designed and coded using ReactJs, HTML, CSS. This site show case some of the beautiful places of Nepal.</p>
+                        <a href="/works/work2" class="btn btn-default">Discover</a>
+                      </div>
+                    </div>
+                    
+                    <div class="col-sm-4">
+                      <a href="/works/work3" class="black-image-project-hover">
+                        <img src="./static/assets/images/work03-hover.jpg" alt="Image" class="img-responsive">
+                      </a>
+                      <div class="card-container">
+                        <h4>001/003</h4>
+                        <h3>Portfolio Personal</h3>
+                        <p>This site is made using reactjs. Reactjs is very good for web development as Javascript can be used for both fron-end and back-end.</p>
+                        <a href="/works/work3" class="btn btn-default">Discover</a>
+                      </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
+
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
+     </div>
+
+
+
+  
+    </div>
+
+
+
+    </div>
+  </div>
+</div>
+
+
+
+{% endblock body %}./work.html

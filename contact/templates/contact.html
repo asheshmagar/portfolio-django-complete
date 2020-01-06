@@ -1,0 +1,71 @@
+{% extends 'base.html' %}
+{% block title %}
+Contact Me
+{% endblock title %}
+
+{% block body %}
+<div class="section-container">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="section-container-spacer text-center">
+            <h1 class="h2">03 : Contact me</h1>
+          </div>
+          
+          <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+               <form action="{% url 'success' %}" method="POST" class="reveal-content">
+                  {% csrf_token %}
+                  <div class="row">
+                    <div class="col-md-7">
+                      {{ form.as_p }}
+                      
+                      <button type="submit" class="btn btn-default btn-lg">Send</button>
+                    </div>
+                    <div class="col-md-5 address-container">
+                      <ul class="list-unstyled">
+                        <li>
+                          <span class="fa-icon">
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                          </span>
+                          + 977 9803440182
+                        </li>
+                        <li>
+                          <span class="fa-icon">
+                            <i class="fa fa-at" aria-hidden="true"></i>
+                          </span>
+                          asheshmagar8888667@gmail.com
+                        </li>f
+                        <li>
+                          <span class="fa-icon">
+                            <i class="fa fa fa-map-marker" aria-hidden="true"></i>
+                          </span>
+                          Sundarijal, Kathmandu, Nepal
+                        </li>
+                      </ul>
+                      <h3>Follow me on social networks</h3>
+                      <a href="http://www.https://www.facebook.com/ashesh.magar.14" title="" class="fa-icon">
+                        <i class="fa fa-facebook"></i>
+                      </a>
+                      <a href="http://www.linkedin.com/in/ashesh-magar-b6777616a" title="" class="fa-icon">
+                        <i class="fa fa-linkedin"></i>
+                      </a>
+                      <a href="http://www.github.com/asheshmagar" title="" class="fa-icon">
+                        <i class="fa fa-github"></i>
+                      </a>
+
+                    </div>
+                  </div>
+                </form>
+            </div>
+
+          </div>
+         
+       </div>
+      </div>
+    </div>
+  </div>
+
+
+
+{% endblock body %}

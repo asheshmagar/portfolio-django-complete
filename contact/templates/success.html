@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% load static %}
+{% block title %}
+Success
+{% endblock title %}
+
+{% block body %}
+  <div class="hero-full-container background-image-container white-text-container" style="background-image: url({% static 'assets/images/space1.jpg' %})">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="hero-full-wrapper">
+            <div class="text-content">
+              <h1><br>
+                <span id="typed-strings">
+                  <span>THANK</span>
+                  <span>YOU</span>
+                  <span>Your message has been sent!!!!!</span>
+                </span>
+                <span id="typed"></span>
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock body %}

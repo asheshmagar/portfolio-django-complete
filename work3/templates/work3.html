@@ -1,0 +1,66 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+Work Three
+{% endblock title %}
+{% block nav %}
+<ul class="nav navbar-nav navbar-right navbar-small visible-md visible-lg">
+  <li><a href="/works/work1" title="" class="active">001</a></li>
+  <li><a href="/works/work2" title="">002</a></li>
+  <li><a href="/works/work3" title="">003</a></li>
+</ul>
+{% endblock nav %}
+
+{% block body %}
+<div class="section-container">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <img src="{% static 'assets/images/work001-01.jpeg' %}" class="img-responsive" alt="">
+        <div class="card-container">
+          <div class="text-center">
+            <h1 class="h2">003 : Portfolio Personal</h1>
+          </div>
+          
+
+          <blockquote>
+           <p>This site is made using reactjs. Reactjs is very good for web development as Javascript can be used for both fron-end and back-end.</p>
+          </blockquote>
+          <h3 style="text-align: center">SCREENSHOTS OF MY PROJECT</h3>
+
+        </div>
+      </div>
+
+      
+      
+      <div class="col-md-8 col-md-offset-2 section-container-spacer">
+        <div class="row">
+          <div class="col-xs-12 col-md-6">
+            <img src="{% static 'assets/images/p2.png' %}" class="img-responsive" alt="">
+            <p style="text-align: center">PORTFOLIO PAGE</p>
+          </div>
+          <div class="col-xs-12 col-md-6">
+            <img src="{% static 'assets/images/p3.png' %}" class="img-responsive" alt="">
+            <p style="text-align: center">SERVICES PAGE</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xs-12">
+        <img src="{% static 'assets/images/p1.png' %}" class="img-responsive" alt="">
+        <p style="text-align: center">HOME PAGE</p>
+      </div>
+
+    </div>
+  </div>
+</div>
+<div  style="text-align: center">
+  <i class="fa fa-github"></i>
+  <a href="https://github.com/asheshmagar/react-portfolio">Github Link to the Project</a>
+
+</div>
+
+
+
+
+{% endblock body %}
