@@ -25,8 +25,8 @@ urlpatterns = [
     path('works/work2',include('work2.urls')),
     path('works/work3',include('work3.urls')),
     path('contact',include('contact.urls')),
+    path('captcha/',include('captcha.urls')),
 
 
-    
-    
+
 ]

@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'bootstrap4',
     'work2',
     'work3',
+    'captcha'
     
     
 
