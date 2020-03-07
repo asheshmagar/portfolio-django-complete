@@ -13,7 +13,7 @@ django-restframework = "==0.0.1"
 pytz = "==2019.3"
 soupsieve = "==1.9.5"
 sqlparse = "==0.3.0"
-Django = "==3.0.2"
+Django = "==3.0.3"
 
 [requires]
 python_version = "3.8"
